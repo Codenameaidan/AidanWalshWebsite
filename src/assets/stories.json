@@ -1,0 +1,29 @@
+[
+    {
+        "title": "The Road With No Turns",
+        "description": "A simple drive home down a narrow road turns into a nightmare.",
+        "date":"4/19/2021",
+        "word_count":"2,142",
+        "background_color":"#4d3c3d",
+        "image_path":"assets/The_Convergence_Icon.jpg",
+        "read_link":"stories/theroadwithnoturns"
+    }
+    ,{
+        "title": "Only Stay With Me For Survival",
+        "description": "An unusual friendship is formed in a post-apocalyptic wasteland.",
+        "date":"3/30/2021",
+        "word_count":"3,856",
+        "background_color":"#a3a68b",
+        "image_path":"assets/Bridge.png",
+        "read_link":""
+    },
+    {
+        "title": "The Convergence",
+        "description": "A man is taken on a surreal trip deep into the Canadian wilderness.",
+        "date":"12/12/2019",
+        "word_count":"2,662",
+        "background_color":"#353d37",
+        "image_path":"assets/The_Convergence_Icon.jpg",
+        "read_link":"stories/theconvergence"
+    }
+]

@@ -1,0 +1,50 @@
+h2{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 80px;
+  line-height: 80px;
+  margin-top:40px;
+}
+
+img{
+  width:300px;
+}
+
+.center-text{
+  margin: 40px;
+  font-size: large;
+  text-align: center;
+}
+
+button{
+  background-color:rgba(53, 187, 13, 0.09);
+  margin:20px;
+  border:0;
+}
+.writing-button{
+  :hover{
+    background-color:darkgoldenrod;
+  }
+}
+
+.cs-button{
+  //background-color: green;
+  :hover{
+    background-color:rgb(64, 148, 226);
+  }
+}
+
+.about-button{
+  :hover{
+    background-color:rgb(138, 184, 11);
+  }
+}
+
+.img-center{
+  margin:auto;
+  text-align: center;
+}
+
+a{
+  color:green;
+}

@@ -1,0 +1,49 @@
+<h3>My Writing</h3>
+
+<p class = "centerText">I am a storyteller at heart.  Mostly with words on paper, and not so much out loud and to other people (gross).  My stories are absurd existential nightmares full of nonsensical dialogue and puzzling characters.  Some stories, naturally, are more serious than others.</p>
+
+<img class = "main-img" src = "assets/LiteraryWorksOfAidanWalsh.png">
+
+<div class = "goto-stories" *ngIf="scrollY < 100">
+  <button mat-icon-button (click)="scrollToTarget()">
+    <mat-icon>keyboard_arrow_down</mat-icon>
+  </button>
+  <p (click)="scrollToTarget()">View the stories!</p>
+</div>
+
+<div id = "target" class = "story-list">
+  <mat-card *ngFor = "let story of stories" class.mat-elevation-z8 [style.background-color]="story.background_color">
+    <img class = "icon-img" src = {{story.image_path}}>
+    <div style = "padding-left: 30px;">
+      <h2>{{story.title}}</h2>
+      <a [href] = story.read_link>
+      <button mat-button style = "background-color: green; color: white; display:inline">
+        Read
+      </button>
+    </a>
+      <p>{{story.description}}</p>
+      <p class = "italics">written {{story.date}}</p>
+      <p>Word Count: {{story.word_count}}</p>
+    </div>
+  </mat-card>
+</div>
+
+<!--
+<div id = "target" class = "story-list">
+  <mat-card class.mat-elevation-z8>
+    <img class = "icon-img" src = "assets/The_Convergence_Icon.jpg">
+    <div style = "padding-left: 30px;">
+      <h2>The Convergence</h2>
+      <button mat-button style = "background-color: green; color: white; display:inline">
+        Read
+      </button>
+      <p>A man is taken on a surreal trip deep into the Canadian wilderness.</p>
+      <p class = "italics">written ?/??/2019</p>
+      <p>Word Count: ????</p>
+    </div>
+  </mat-card>
+  <li>Story 1</li>
+  <li>Story 1</li>
+  <li>Story 4</li>
+</div>
+-->

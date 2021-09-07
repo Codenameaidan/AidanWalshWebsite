@@ -1,0 +1,36 @@
+[
+    {
+        "title": "This Website",
+        "description": "I wanted to create a place to house all of the things that I've created and written, so I used my web design knowledge gained from a summer internship to create this site.",
+        "date":"8/28/2021",
+        "github_link":"",
+        "run_button_enabled": false,
+        "run_link":""
+    },
+
+    {
+        "title": "Tarot Card Reader",
+        "description": "A simple web application where you can draw tarot cards in several spreads.  Card descriptions included.",
+        "date":"3/13/2021",
+        "github_link":"https://github.com/Codenameaidan/TarotReader",
+        "run_button_enabled": false,
+        "run_link":""
+    },
+
+    {
+        "title": "Missile Defender",
+        "description": "A game made in Unity where you defend against missiles.  Based on the classic Missile Command.",
+        "date":"1/5/2021",
+        "github_link":"https://github.com/Codenameaidan/MissileDefender",
+        "run_button_enabled": true,
+        "run_link":"https://gamejolt.net/?token=mpe5in8dFnNx4Ay8JywzX2QFDJkZre"
+    },
+    {
+        "title": "Writing Analysis",
+        "description": "A simple Python script that counts the percentage of words that are inclosed in quotes.  I created this to analyze the frequency of dialouge in my writing.",
+        "date":"4/11/2021",
+        "github_link":"https://github.com/Codenameaidan/WritingAnalysis",
+        "run_button_enabled": false,
+        "run_link":""
+    }
+]

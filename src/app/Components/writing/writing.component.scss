@@ -1,0 +1,63 @@
+.centerText{
+  margin: 40px;
+  font-size: large;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 75px;
+  margin:40px;
+  line-height: 75px;
+  font-family: Lucida Handwriting, cursive;
+ //font-
+}
+
+.main-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+
+.icon-img{
+  //display: block;
+  float:left;
+  margin-right: 20px;
+  max-height: 130px;
+}
+
+.italics{
+  font-style: italic;
+}
+.goto-stories{
+  position: fixed;
+  left:30px;
+  bottom: 30px;
+}
+
+.story-list{
+  mat-card{
+    //background-color: darkslategray;
+    color:white;
+    min-height: 130px;
+  }
+}
+mat-card{
+  margin:20px;
+  //background-color: rgb(209, 209, 209);
+  //border-left:5px solid green;
+  border-bottom:5px solid green;
+}
+
+h2{
+  display:inline;
+  margin-right: 10px;
+  font-size: x-large;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+button{
+  border:lightgreen 2px solid;
+}

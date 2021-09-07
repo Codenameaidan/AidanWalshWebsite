@@ -1,0 +1,31 @@
+<h3>My Projects</h3>
+
+<p class = "center-text">There are more projects and source codes on my <a href = "https://github.com/Codenameaidan">Github</a>
+
+<mat-grid-list [cols]="math.floor(innerWidth/500)" rowHeight="300px">
+  <mat-grid-tile *ngFor = "let project of projects">
+    <div class = "block">
+      <mat-card>
+      <h2>{{project.title}}</h2>
+
+      <p>{{project.description}}</p>
+
+    
+      <a [href] = project.github_link>
+      <button mat-button class = "button">
+        View Source Code
+      </button>
+       </a>
+       <a *ngIf = "project.run_button_enabled" [href] = project.run_link>
+      <button mat-button class = "button">
+        Run <mat-icon>play_arrow</mat-icon>
+      </button>
+    </a>
+
+      <p class = "italics">Completed: {{project.date}}</p>
+    </mat-card>
+    </div>
+    
+  </mat-grid-tile>
+</mat-grid-list>
+

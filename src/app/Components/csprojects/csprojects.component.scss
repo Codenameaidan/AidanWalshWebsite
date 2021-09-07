@@ -7,8 +7,9 @@ h3{
 
 mat-card{
   border:5px solid rgb(0, 2, 128);
-  height:220px;
+  min-height:220px;
   background-color:cornsilk;
+  max-height:400px;
 }
 
 .button{
@@ -30,7 +31,8 @@ mat-card{
 }
 
 .block{
-  padding-left: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 0px;
   width:100%;
  

@@ -20,14 +20,12 @@ export class CsprojectsComponent implements OnInit {
   constructor(public router : Router ) { }
 
   ngOnInit(): void {
-    //alert(this.router.url.split('/')[1]);
     this.innerWidth = window.innerWidth;
   }
 
   @HostListener('window:resize', ['$event'])
-  onResize($event:any) {
+  onResize($event:any) { //Keep track of inner width so project boxes can be rearranged
     this.innerWidth = window.innerWidth;
-    console.log(Math.floor(this.innerWidth));
   }
 
 }

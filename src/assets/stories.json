@@ -5,7 +5,7 @@
         "date":"4/19/2021",
         "word_count":"2,142",
         "background_color":"#4d3c3d",
-        "image_path":"assets/The_Convergence_Icon.jpg",
+        "image_path":"assets/TheRoadWithNoTurns.jpg",
         "read_link":"stories/theroadwithnoturns"
     }
     ,{
@@ -14,7 +14,7 @@
         "date":"3/30/2021",
         "word_count":"3,856",
         "background_color":"#a3a68b",
-        "image_path":"assets/Bridge.png",
+        "image_path":"assets/OnlyStayWithMeForSurvival.png",
         "read_link":""
     },
     {
@@ -23,7 +23,7 @@
         "date":"12/12/2019",
         "word_count":"2,662",
         "background_color":"#353d37",
-        "image_path":"assets/The_Convergence_Icon.jpg",
+        "image_path":"assets/TheConvergence.jpg",
         "read_link":"stories/theconvergence"
     }
 ]

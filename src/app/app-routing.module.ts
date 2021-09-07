@@ -4,6 +4,7 @@ import { AboutComponent } from './Components/about/about.component';
 import { CsprojectsComponent } from './Components/csprojects/csprojects.component';
 import { CsskillsComponent } from './Components/csskills/csskills.component';
 import { HomeComponent } from './Components/home/home.component';
+import { OnlyStayWithMeForSurvivalComponent } from './Components/stories/only-stay-with-me-for-survival/only-stay-with-me-for-survival.component';
 import { TheConvergenceComponent } from './Components/stories/the-convergence/the-convergence.component';
 import { TheRoadWithNoTurnsComponent } from './Components/stories/the-road-with-no-turns/the-road-with-no-turns.component';
 import { WritingComponent } from './Components/writing/writing.component';
@@ -18,7 +19,7 @@ const routes: Routes = [
 
   { path: 'stories/theconvergence', component: TheConvergenceComponent },
   { path: 'stories/theroadwithnoturns', component: TheRoadWithNoTurnsComponent },
-  { path: 'stories/onlystaywithmeforsurvival', component: TheRoadWithNoTurnsComponent },
+  { path: 'stories/onlystaywithmeforsurvival', component: OnlyStayWithMeForSurvivalComponent },
 
   
 

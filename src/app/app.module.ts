@@ -13,6 +13,7 @@ import { CsskillsComponent } from './Components/csskills/csskills.component';
 import { AboutComponent } from './Components/about/about.component';
 import { TheConvergenceComponent } from './Components/stories/the-convergence/the-convergence.component';
 import { TheRoadWithNoTurnsComponent } from './Components/stories/the-road-with-no-turns/the-road-with-no-turns.component';
+import { OnlyStayWithMeForSurvivalComponent } from './Components/stories/only-stay-with-me-for-survival/only-stay-with-me-for-survival.component';
 
 //import { HomeComponent } from './Components/home/home.component';
 
@@ -26,7 +27,8 @@ import { TheRoadWithNoTurnsComponent } from './Components/stories/the-road-with-
     CsskillsComponent,
     AboutComponent,
     TheConvergenceComponent,
-    TheRoadWithNoTurnsComponent
+    TheRoadWithNoTurnsComponent,
+    OnlyStayWithMeForSurvivalComponent
   ],
   imports: [
     BrowserModule,

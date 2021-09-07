@@ -18,6 +18,7 @@ const routes: Routes = [
 
   { path: 'stories/theconvergence', component: TheConvergenceComponent },
   { path: 'stories/theroadwithnoturns', component: TheRoadWithNoTurnsComponent },
+  { path: 'stories/onlystaywithmeforsurvival', component: TheRoadWithNoTurnsComponent },
 
   
 

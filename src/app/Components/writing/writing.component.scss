@@ -18,7 +18,10 @@ h3{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
+  min-width: 300px;
   max-width: 500px;
+
 }
 
 .icon-img{
@@ -41,7 +44,7 @@ h3{
   mat-card{
     //background-color: darkslategray;
     color:white;
-    min-inline-size: min-content;
+    //min-inline-size: min-content;
     min-height: 130px;
   }
 }
@@ -54,10 +57,11 @@ mat-card{
 
 h2{
   display:inline;
-  margin-right: 10px;
+  word-wrap: break-word;
+  //margin-right: 10px;
   font-size: x-large;
   font-weight: bold;
-  white-space: nowrap;
+  //white-space: nowrap;
 }
 
 button{

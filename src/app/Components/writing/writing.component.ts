@@ -18,7 +18,7 @@ export class WritingComponent implements OnInit {
 
   @HostListener('window:scroll', ['$event'])
     doSomething() {
-      console.debug("Scroll Event", window.pageYOffset );
+      //console.debug("Scroll Event", window.pageYOffset );
       this.scrollY = window.pageYOffset;
     }
 

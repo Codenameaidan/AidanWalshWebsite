@@ -16,14 +16,14 @@
     <img class = "icon-img" src = {{story.image_path}}>
     <div style = "padding-left: 30px;">
       <h2>{{story.title}}</h2>
-      <a [href] = story.read_link>
-      <button mat-button style = "background-color: green; color: white; display:inline">
-        Read
-      </button>
-    </a>
       <p>{{story.description}}</p>
       <p class = "italics">written {{story.date}}</p>
       <p>Word Count: {{story.word_count}}</p>
+      <a [href] = story.read_link>
+        <button mat-button style = "background-color: green; color: white; display:inline">
+          Read
+        </button>
+      </a>
     </div>
   </mat-card>
 </div>

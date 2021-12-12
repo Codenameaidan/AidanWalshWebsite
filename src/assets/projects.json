@@ -27,7 +27,7 @@
     },
     {
         "title": "Writing Analysis",
-        "description": "A simple Python script that counts the percentage of words that are inclosed in quotes.  I created this to analyze the frequency of dialouge in my writing.",
+        "description": "A simple Python script that counts the percentage of words that are inclosed in quotes.  I created this to analyze the frequency of dialogue in my writing.",
         "date":"4/11/2021",
         "github_link":"https://github.com/Codenameaidan/WritingAnalysis",
         "run_button_enabled": false,

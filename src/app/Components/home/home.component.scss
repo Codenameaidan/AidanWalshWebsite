@@ -1,13 +1,13 @@
 h2{
   text-align: center;
   font-weight: bolder;
-  font-size: 80px;
-  line-height: 80px;
+  font-size: calc(32px + 3vw);//
+  line-height: calc(32px + 3vw);
   margin-top:40px;
 }
 
 img{
-  width:300px;
+  width: calc(200px + 8vw);
 }
 
 .center-text{

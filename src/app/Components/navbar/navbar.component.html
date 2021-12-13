@@ -4,7 +4,7 @@
 
   <div class = "links">
     <button mat-button routerLink = "/home"  [ngStyle]="{'background-color' : this.router.url==='/home' ? 'rgb(98, 150, 101,0.3)' : '' }">Home</button>
-    <button mat-button [matMenuTriggerFor]="menu" [ngStyle]="{'background-color' : this.router.url.split('/')[1]==='cs' ? 'rgb(98, 150, 101,0.3)' : '' }">Computing && Information</button>
+    <button mat-button [matMenuTriggerFor]="menu" [ngStyle]="{'background-color' : this.router.url.split('/')[1]==='cs' ? 'rgb(98, 150, 101,0.3)' : '' }">Computer Stuff</button>
       <mat-menu #menu="matMenu">
        <!-- <button mat-menu-item routerLink = "/cs/timeline">Timeline</button> -->
         <button mat-menu-item routerLink = "/cs/projects">My Projects</button>

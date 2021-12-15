@@ -32,5 +32,14 @@
         "github_link":"https://github.com/Codenameaidan/WritingAnalysis",
         "run_button_enabled": false,
         "run_link":""
+    },
+    {
+        "title": "Bit Engine",
+        "description": "A simple physics simulation with bits.  I made this in high school (must download on Gamejolt to play)",
+        "date":"2018",
+        "github_link":"https://github.com/Codenameaidan/BitEngine",
+        "run_button_enabled": true,
+        "run_link":"https://gamejolt.com/games/BitEngine/345013"
     }
+
 ]

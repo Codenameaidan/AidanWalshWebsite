@@ -1,7 +1,7 @@
 [
     {
         "title": "This Website",
-        "description": "I wanted to create a place to house all of the things that I've created and written, so I used my web design knowledge gained from a summer internship to create this site.",
+        "description": "I wanted to create a place to house all of the things that I've created and written, so I used my Angular knowledge gained from a summer internship to create this site.",
         "date":"8/28/2021",
         "github_link":"https://github.com/Codenameaidan/AidanWalshWebsite",
         "run_button_enabled": false,

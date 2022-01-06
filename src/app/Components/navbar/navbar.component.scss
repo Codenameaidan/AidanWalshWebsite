@@ -35,3 +35,7 @@ a{
   margin-bottom: auto;
 }
 
+::ng-deep .customize {
+  background-color: rgb(193, 223, 176);
+  font-weight: bold;
+}

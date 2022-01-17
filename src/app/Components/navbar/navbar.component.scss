@@ -6,7 +6,7 @@
   //background-color: green;
 }
 
-button{
+.link{
   //margin-top: 3px;
   min-height: 35px;
   border-radius: 0px;
@@ -38,4 +38,22 @@ a{
 ::ng-deep .customize {
   background-color: rgb(193, 223, 176);
   font-weight: bold;
+}
+.mobile-menu{
+  background-color: rgb(193, 223, 176);
+}
+
+.mobile-link{
+  min-height:50px;
+  text-align: center;
+  width: 100%;
+}
+.mat-icon{
+  height:35px !important;
+  width:35px !important;
+  font-size:35px !important;
+}
+.mobile-btn{
+  height:50px;
+  min-width:100%
 }

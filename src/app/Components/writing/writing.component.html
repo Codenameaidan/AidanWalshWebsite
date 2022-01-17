@@ -5,17 +5,16 @@
 <img class = "main-img" src = "assets/LiteraryWorksOfAidanWalsh.png">
 
 <div class = "goto-stories" *ngIf="scrollY < 100">
-  <button mat-icon-button (click)="scrollToTarget()">
+  <button class = "scroll_to_target" mat-icon-button (click)="scrollToTarget()">
     <mat-icon>keyboard_arrow_down</mat-icon>
   </button>
-  <p (click)="scrollToTarget()">View the stories!</p>
 </div>
 
 <div id = "target" class = "story-list">
   <mat-card *ngFor = "let story of stories" class.mat-elevation-z8 [style.background-color]="story.background_color">
+    <h2>{{story.title}}</h2><br>
     <img class = "icon-img" src = {{story.image_path}}>
     <div style = "padding-left: 30px;">
-      <h2>{{story.title}}</h2>
       <p>{{story.description}}</p>
       <p class = "italics">written {{story.date}}</p>
       <p>Word Count: {{story.word_count}}</p>

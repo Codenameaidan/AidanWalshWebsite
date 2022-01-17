@@ -2,17 +2,29 @@
 
   <h2>aidanjwalsh.com</h2>
 
-  <div class = "links">
-    <button mat-button routerLink = "/home"  [ngStyle]="{'background-color' : this.router.url==='/home' ? 'rgb(98, 150, 101,0.3)' : '' }">Home</button>
-    <button mat-button [matMenuTriggerFor]="menu" [ngStyle]="{'background-color' : this.router.url.split('/')[1]==='cs' ? 'rgb(98, 150, 101,0.3)' : '' }">Computer Stuff</button>
+  <div *ngIf = "!mobile" class = "links">
+    <button class = "link" mat-button routerLink = "/home"  [ngStyle]="{'background-color' : this.router.url==='/home' ? 'rgb(98, 150, 101,0.3)' : '' }">Home</button>
+    <button class = "link" mat-button [matMenuTriggerFor]="menu" [ngStyle]="{'background-color' : this.router.url.split('/')[1]==='cs' ? 'rgb(98, 150, 101,0.3)' : '' }">Computer Stuff</button>
       <mat-menu #menu="matMenu" class="customize">
        <!-- <button mat-menu-item routerLink = "/cs/timeline">Timeline</button> -->
-        <button mat-menu-item routerLink = "/cs/projects">My Projects</button>
-        <button mat-menu-item routerLink = "/cs/skills">My Skills</button>
+        <button class = "link" mat-menu-item routerLink = "/cs/projects">My Projects</button>
+        <button class = "link" mat-menu-item routerLink = "/cs/skills">My Skills</button>
       </mat-menu>
 
-    <button mat-button routerLink = "/writing" [ngStyle]="{'background-color' : this.router.url==='/writing' ? 'rgb(98, 150, 101,0.3)' : '' }">Writing</button>
-    <button mat-button routerLink = "/about" [ngStyle]="{'background-color' : this.router.url==='/about' ? 'rgb(98, 150, 101,0.3)' : '' }">About</button>
+    <button class = "link" mat-button routerLink = "/writing" [ngStyle]="{'background-color' : this.router.url==='/writing' ? 'rgb(98, 150, 101,0.3)' : '' }">Writing</button>
+    <button class = "link" mat-button routerLink = "/about" [ngStyle]="{'background-color' : this.router.url==='/about' ? 'rgb(98, 150, 101,0.3)' : '' }">About</button>
   </div>
 
+  <div *ngIf = "mobile" class = "links">
+    <button (click) = "toggle_menu()" mat-button aria-label="Menu">
+      <mat-icon>menu</mat-icon>
+    </button>    
+  </div>
+</div>
+<div *ngIf = "menu_on && mobile" class = "mobile-menu">
+  <div class = "mobile-link"><button class = "mobile-btn" (click) = "toggle_menu()" mat-button routerLink = "/home">Home</button></div>
+  <div class = "mobile-link"><button class = "mobile-btn" (click) = "toggle_menu()" mat-button routerLink = "/cs/projects">CS Projects</button></div>
+  <div class = "mobile-link"><button class = "mobile-btn" (click) = "toggle_menu()" mat-button routerLink = "/cs/skills">My Skills</button></div>
+  <div class = "mobile-link"><button class = "mobile-btn" (click) = "toggle_menu()" mat-button routerLink = "/writing">Writing</button></div>
+  <div class = "mobile-link"><button class = "mobile-btn" (click) = "toggle_menu()" mat-button routerLink = "/about">About</button></div>
 </div>

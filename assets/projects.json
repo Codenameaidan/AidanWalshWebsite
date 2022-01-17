@@ -7,7 +7,14 @@
         "run_button_enabled": false,
         "run_link":""
     },
-
+    {
+        "title": "AuthorTools",
+        "description": "A python package available on PyPI, containing a bunch of useful functions for writers.",
+        "date":"1/15/2022",
+        "github_link":"https://github.com/Codenameaidan/AuthorTools",
+        "run_button_enabled": false,
+        "run_link":""
+    },
     {
         "title": "Tarot Card Reader",
         "description": "A simple web application where you can draw tarot cards in several spreads.  Card descriptions included.",
@@ -24,14 +31,6 @@
         "github_link":"https://github.com/Codenameaidan/MissileDefender",
         "run_button_enabled": true,
         "run_link":"https://gamejolt.com/games/Missile_Defender/593411"
-    },
-    {
-        "title": "Writing Analysis",
-        "description": "A simple Python script that counts the percentage of words that are inclosed in quotes.  I created this to analyze the frequency of dialogue in my writing.",
-        "date":"4/11/2021",
-        "github_link":"https://github.com/Codenameaidan/WritingAnalysis",
-        "run_button_enabled": false,
-        "run_link":""
     },
     {
         "title": "Bit Engine",

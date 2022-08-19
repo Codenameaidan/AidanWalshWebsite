@@ -1,10 +1,36 @@
-<div>
+<div class = "aboutMargin">
+    <div id = "carouselparent">
+        <mat-carousel
+            timings="200ms ease-in"
+            [autoplay]="true"
+            [loop] = "true"
+            [interval] = 4000
+            slideHeight = '200px'
+            maxWidth = '300px'
+            [proportion] = 133
+
+            
+        >
+            <mat-carousel-slide style = "min-height: 300px" image = "assets/Me3.jpeg">    
+            </mat-carousel-slide>
+
+            <mat-carousel-slide style = "min-height: 300px" image = "assets/Me1.jpg">    
+            </mat-carousel-slide>
+
+            <mat-carousel-slide style = "min-height: 300px" image = "assets/Me2.jpg">    
+            </mat-carousel-slide>
+            
+        </mat-carousel>
+    </div>
+    <div class = "aboutMargin"></div>
     <h1>About me</h1>
     <p>I'm currently a student attending the University of Pittsburgh.  I spend much of my free time writing stories, creating programming projects, or playing chess online.  </p>
     <p>I am also interested in city designing and planning, as well as aviation and history.</p>
 
 
     <h1>Contact</h1>
-    <p>Feel free to email me at codenameaidan@gmail.com for any reason at all.  Any criticisms (I'm sure you have a lot), reviews, or comments are always appreciated!</p>
+    <p>Keep up to date with my stories and projects by following me on <a href = "https://www.instagram.com/aidan_walsh_writing_and_stuff/">Instagram</a>! </p>
+    <p>Feel free to email me at codenameaidan@gmail.com for any reason at all.  Any criticisms, reviews, comments, or opportunities are always appreciated!</p>
+    
     <p>Especially email me if something on this site doesn't seem to be working!</p>
 </div>

@@ -6,7 +6,8 @@
         "word_count":"2,660",
         "background_color":"#753530",
         "image_path":"assets/RupertsBody.jpg",
-        "read_link":"stories/rupertsbody"
+        "read_link":"stories/rupertsbody",
+        "pdf_link": "https://drive.google.com/file/d/11FzSqqoklsmLIwaJtf2ayueByqn1FmwI/view?usp=sharing"
     },
     {
         "title": "The Road With No Turns",
@@ -15,7 +16,8 @@
         "word_count":"2,142",
         "background_color":"#4d3c3d",
         "image_path":"assets/TheRoadWithNoTurns.jpg",
-        "read_link":"stories/theroadwithnoturns"
+        "read_link":"stories/theroadwithnoturns",
+        "pdf_link": "https://drive.google.com/file/d/17DpDw6-vVSrOwrUXBCwmj01gY8-DI18a/view?usp=sharing"
     }
     ,{
         "title": "Only Stay With Me For Survival",
@@ -24,7 +26,8 @@
         "word_count":"3,856",
         "background_color":"#a3a68b",
         "image_path":"assets/OnlyStayWithMeForSurvival.png",
-        "read_link":"stories/onlystaywithmeforsurvival"
+        "read_link":"stories/onlystaywithmeforsurvival",
+        "pdf_link": "https://drive.google.com/file/d/1pnFIv51MEbmGtsmNaJY43fSBIFeCQByZ/view?usp=sharing"
     },
     {
         "title": "The Convergence",

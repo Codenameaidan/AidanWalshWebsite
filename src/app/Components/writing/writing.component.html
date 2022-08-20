@@ -20,7 +20,13 @@
       <p>Word Count: {{story.word_count}}</p>
       <a [href] = story.read_link>
         <button mat-button style = "background-color: green; color: white; display:inline">
-          Read
+          Read Online
+        </button>
+      </a>
+
+      <a *ngIf = "story.pdf_link != null" [href] = story.pdf_link>
+        <button mat-button style = "background-color: rgb(0, 128, 117); color: white; display:inline">
+          View PDF
         </button>
       </a>
     </div>

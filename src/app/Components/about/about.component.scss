@@ -1,23 +1,17 @@
-
 .aboutMargin{
     margin:50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+
 h1{
     font-size: 75px;
     line-height: 75px;
     
 }
-#carouselparent{
-    border: 3px solid green ;
-    max-width: 300px;
-    max-height:400px;
-    min-height: 400px;
-    min-width: 300px;
 
-    //display:inline-block;
-    margin-left:20px+auto;
-    margin-right:20px+auto;
-
-    margin-top: 5px;
-    float: right;
+img{
+    width: 300px;
+    float:right
 }

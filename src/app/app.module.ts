@@ -17,7 +17,10 @@ import { TheConvergenceComponent } from './Components/stories/the-convergence/th
 import { TheRoadWithNoTurnsComponent } from './Components/stories/the-road-with-no-turns/the-road-with-no-turns.component';
 import { OnlyStayWithMeForSurvivalComponent } from './Components/stories/only-stay-with-me-for-survival/only-stay-with-me-for-survival.component';
 import { RupertsBodyComponent } from './Components/stories/ruperts-body/ruperts-body.component';
+import { ArtComponent } from './Components/art/art.component';
 
+// import * as dotenv from 'dotenv';
+// dotenv.config();
 
 //import { HomeComponent } from './Components/home/home.component';
 
@@ -33,7 +36,8 @@ import { RupertsBodyComponent } from './Components/stories/ruperts-body/ruperts-
     TheConvergenceComponent,
     TheRoadWithNoTurnsComponent,
     OnlyStayWithMeForSurvivalComponent,
-    RupertsBodyComponent
+    RupertsBodyComponent,
+    ArtComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,35 @@
+<div class = "content">
+    <h3>Art Gallery</h3>
+
+    <mat-button-toggle-group 
+        class = "art-style-toggle" 
+        name="artStyle" 
+        aria-label="Art style"
+        #group="matButtonToggleGroup" 
+        [value]="filter" 
+        (change)="onValChange(group.value)"
+        > 
+        <mat-button-toggle value="all">All</mat-button-toggle>
+        <mat-button-toggle value="paint">Paint</mat-button-toggle>
+        <mat-button-toggle value="sketch">Sketch</mat-button-toggle>
+        <mat-button-toggle value="digital">Digital</mat-button-toggle>
+        <mat-button-toggle value="pixel">Pixel Art</mat-button-toggle>
+    </mat-button-toggle-group>
+
+    <div class="gallery">
+        <div class = "column" *ngFor = "let _ of [].constructor(numColumns); let i = index">
+
+            <div class = "image-with-desc" *ngFor = "let art of takeEveryNthElement(filteredArt.slice(i), numColumns, filter)">
+                <div class="image">
+                    <img 
+                        [src]="art.url"
+                        [alt] = "art.title"
+                        [class.pixel-art-img] = "art.type === 'pixel'"
+                    >
+                </div>
+                <div class="title">{{art.title}}</div>
+                <div class="description">{{art.desc}}</div>
+            </div>
+        </div>
+    </div>
+</div>

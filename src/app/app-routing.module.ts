@@ -9,11 +9,14 @@ import { RupertsBodyComponent } from './Components/stories/ruperts-body/ruperts-
 import { TheConvergenceComponent } from './Components/stories/the-convergence/the-convergence.component';
 import { TheRoadWithNoTurnsComponent } from './Components/stories/the-road-with-no-turns/the-road-with-no-turns.component';
 import { WritingComponent } from './Components/writing/writing.component';
+import { ArtComponent } from './Components/art/art.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'writing', component: WritingComponent },
   { path: 'about', component: AboutComponent },
+
+  { path: 'art', component: ArtComponent },
 
   { path: 'cs/projects', component: CsprojectsComponent },
   { path: 'cs/skills', component: CsskillsComponent },

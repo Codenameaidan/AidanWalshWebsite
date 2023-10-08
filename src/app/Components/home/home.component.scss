@@ -24,6 +24,7 @@ button{
 .writing-button{
   :hover{
     background-color:darkgoldenrod;
+    cursor: pointer;
   }
 }
 
@@ -31,12 +32,14 @@ button{
   //background-color: green;
   :hover{
     background-color:rgb(64, 148, 226);
+    cursor: pointer;
   }
 }
 
 .about-button{
   :hover{
     background-color:rgb(138, 184, 11);
+    cursor: pointer;
   }
 }
 

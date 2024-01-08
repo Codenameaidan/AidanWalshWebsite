@@ -1,5 +1,75 @@
 [
     {
+        "title" : "RV at Night",
+        "desc" : "1/8/2024",
+        "url" : "assets/art/RV at Night.png",
+        "type" : "pixel"
+    },
+
+    {
+        "title" : "Man At Fire",
+        "desc" : "1/8/2024",
+        "url" : "assets/art/Man At Fire.png",
+        "type" : "pixel"
+    },
+
+    {
+        "title" : "Cliffside Forest",
+        "desc" : "1/8/2024",
+        "url" : "assets/art/Cliffside Forest.png",
+        "type" : "paint"
+    },
+
+    {
+        "title" : "Mountain Sketch",
+        "desc" : "1/8/2024",
+        "url" : "assets/art/Mountain Sketch.jpg",
+        "type" : "sketch"
+    },
+
+    {
+        "title" : "Desert Sundown",
+        "desc" : "1/8/2024",
+        "url" : "assets/art/Desert Sundown.jpg",
+        "type" : "paint"
+    },
+
+    {
+        "title" : "Crime and Punishment",
+        "desc" : "1/8/2024",
+        "url" : "assets/art/Crime and Punishment.jpg",
+        "type" : "sketch"
+    },
+
+    {
+        "title" : "Death Valley",
+        "desc" : "1/8/2024",
+        "url" : "assets/art/Death Valley.png",
+        "type" : "pixel"
+    },
+
+    {
+        "title" : "Untitled Sketch",
+        "desc" : "1/8/2024",
+        "url" : "assets/art/Untitled Sketch.jpg",
+        "type" : "sketch"
+    },
+
+    {
+        "title" : "Forest Fire",
+        "desc" : "1/8/2024",
+        "url" : "assets/art/Forest Fire.png",
+        "type" : "pixel"
+    },
+
+    {
+        "title" : "Pixel Mountain Landscape",
+        "desc" : "1/8/2024",
+        "url" : "assets/art/Pixel Mountain Landscape.png",
+        "type" : "pixel"
+    },
+
+    {
         "title" : "Ship on Waves",
         "desc" : "9/23/2023",
         "url" : "assets/art/Ship on Waves.png",
